@@ -1,6 +1,6 @@
 from PyPDF2 import PdfReader
 
-reader = PdfReader('../resources/docs-pytest-org-en-latest.pdf')
+reader = PdfReader('resources/docs-pytest-org-en-latest.pdf')
 number_of_pages = len(reader.pages)
 print(number_of_pages)
 
